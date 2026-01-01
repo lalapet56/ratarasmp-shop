@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" id="favicon">
+    <link rel="stylesheet" href="style.css?v=6">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">☀️</button>
+        <h1 id="shop-title">Shop Title</h1>
+        <p id="shop-desc">Shop Description</p>
+    </header>
+
+    <div class="container">
+        <!-- Products Grid -->
+        <div class="grid-container" id="product-grid">
+            <!-- Product Cards injected via JS -->
+        </div>
+
+        <div class="section-divider">
+            <span>INFORMATION</span>
+        </div>
+
+        <!-- Info Grid (Bottom) -->
+        <div class="grid-container" id="info-grid">
+            <!-- Info Cards injected via JS -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 vanes430</p>
+        <a href="https://github.com/vanes430" target="_blank" aria-label="GitHub">
+            <img src="public/github.svg" alt="GitHub Logo">
+        </a>
+    </footer>
+
+    <!-- Buy Modal -->
+    <div id="buyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Checkout</h2>
+            
+            <div class="form-group">
+                <label for="buyer-name">Your Name</label>
+                <input type="text" id="buyer-name" placeholder="Enter your name to proceed..." autocomplete="off">
+            </div>
+
+            <p style="margin-bottom: 10px; font-weight: bold; color: #555;">Select a Seller to Contact:</p>
+            <div class="seller-selection" id="seller-list">
+                <!-- Seller Buttons injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=6"></script>
+</body>
+</html>

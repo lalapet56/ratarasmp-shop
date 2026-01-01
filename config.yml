@@ -1,0 +1,88 @@
+site:
+  title: "ʀᴀᴛᴀʀᴀꜱᴍᴘ ꜱᴛᴏʀᴇ"
+  icon: "public/item1.svg"
+
+shop:
+  title: "ʀᴀᴛᴀʀᴀꜱᴍᴘ ꜱᴛᴏʀᴇ"
+  description: "Selamat datang di store resmi Ratarasmp. Silakan pilih kategori rank atau item yang anda inginkan."
+
+# Seller Names from your rule: Grentud & Jhon
+sellers:
+  - "Grentud|6281234567890"
+  - "Jhon|6289876543210"
+
+products:
+  - name: "Rank VOLTRA"
+    price: "Rp 50.000"
+    description: |-
+      Durasi 1 bulan
+      Fitur:
+      /fly, /feed, /heal, /anvil, /ec, /loom, /god, /repair, /vanish, /co i
+      [+] Kit Rank Voltra
+      [+] Sethome 20
+      [+] Vault 5
+    image: "public/item1.svg"
+  
+  - name: "Rank NOVA"
+    price: "Rp 35.000"
+    description: |-
+      Durasi 1 bulan
+      Fitur:
+      /fly, /feed, /heal, /anvil, /ec, /loom, /god, /repair
+      [+] Kit Rank Nova
+      [+] Sethome 15
+      [+] Vault 4
+    image: "public/item2.svg"
+  
+  - name: "Rank MASTER"
+    price: "Rp 20.000"
+    description: |-
+      Durasi 1 bulan
+      Fitur:
+      /fly, /feed, /heal, /anvil, /ec, /loom, /god
+      [+] Kit Rank Master
+      [+] Sethome 10
+      [+] Vault 3
+    image: "public/item3.svg"
+
+  - name: "Rank HERO"
+    price: "Rp 10.000"
+    description: |-
+      Durasi 1 bulan
+      Fitur:
+      /feed, /heal, /anvil, /ec
+      [+] Kit Rank Hero
+      [+] Sethome 5
+      [+] Vault 2
+    image: "public/item4.svg"
+
+  - name: "Shards"
+    price: "Rp 2.000+"
+    description: |-
+      1000 Shards: Rp.2000
+      2000 Shards: Rp.4000
+      3000 Shards: Rp.6000
+      4000 Shards: Rp.8000
+      5000 Shards: Rp.10000
+      6000 Shards: Rp.12000
+      7000 Shards: Rp.14000
+      8000 Shards: Rp.16000
+    image: "public/item1.svg"
+
+  - name: "Armor"
+    price: "Rp 20.000+"
+    description: |-
+      Full Item Demonic: Rp 50.000
+      Full Item Arcane: Rp.40.000
+      Demonic Set: Rp 30.000
+      Arcane Set: Rp 20.000
+      Sword Demonic: Rp.35.000
+      Sword Arcane: Rp.25.000
+    image: "public/item2.svg"
+
+infos:
+  - title: "Aturan Pembelian"
+    content: |-
+      1. Harap membaca deskripsi sebelum membeli
+      2. Tidak menerima return atau refund
+      3. Jadilah pembeli bijak
