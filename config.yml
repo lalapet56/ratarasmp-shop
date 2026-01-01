@@ -11,6 +11,7 @@ sellers:
   - "Jhon|6285143590943"
   - "Grentud|6283852432256"
 
+# Product Images can be local paths (e.g., "assets/image.svg") or direct URLs (e.g., "https://example.com/image.png")
 products:
   - name: "Rank VOLTRA"
     price: "Rp 50.000"
