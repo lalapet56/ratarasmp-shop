@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
     <linearGradient id="gradGreen" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#32CD32;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#008000;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <circle cx="256" cy="256" r="240" fill="#222" />
-  <path d="M256 32 C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm0 400c-97 0-176-79-176-176S159 80 256 80s176 79 176 176-79 176-176 176z" fill="url(#gradGreen)" />
-  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="150" fill="white">H</text>
+  <rect width="500" height="500" rx="50" fill="url(#gradGreen)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="100" fill="white">HERO</text>
 </svg>

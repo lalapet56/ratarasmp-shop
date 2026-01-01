@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
-    <linearGradient id="gradYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="gradYellow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFFF00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC000;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="60" fill="#333" />
-  <path d="M256 64 L416 128 V256 C416 362 346 458 256 480 C166 458 96 362 96 256 V128 L256 64 Z" fill="url(#gradYellow)" stroke="#fff" stroke-width="12"/>
-  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="150" fill="#333">M</text>
+  <rect width="500" height="500" rx="50" fill="url(#gradYellow)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="80" fill="#333">MASTER</text>
 </svg>

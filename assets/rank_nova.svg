@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
-    <linearGradient id="gradDarkBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00008B;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0000CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000040;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <circle cx="256" cy="256" r="240" fill="#1a1a2e" />
-  <polygon points="256,48 320,192 464,192 352,288 392,432 256,352 120,432 160,288 48,192 192,192" fill="url(#gradDarkBlue)" stroke="#fff" stroke-width="10"/>
+  <rect width="500" height="500" rx="50" fill="url(#gradBlue)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="100" fill="white">NOVA</text>
 </svg>

@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <defs>
-    <linearGradient id="gradDarkRed" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="gradDarkRed" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#B22222;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#800000;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <path d="M64 96 C64 96 128 32 256 32 C384 32 448 96 448 96 V224 C448 352 256 480 256 480 C256 480 64 352 64 224 Z" fill="url(#gradDarkRed)" stroke="#fff" stroke-width="12"/>
+  <rect width="500" height="500" rx="50" fill="url(#gradDarkRed)" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="90" fill="white">ARMOR</text>
 </svg>
