@@ -24,13 +24,13 @@ products:
       [+] Vault 5
     image: "assets/rank_voltra.svg"
   
-  - name: "Rank NOVA"
+  - name: "Rank ASTRAL"
     price: "Rp 35.000"
     description: |-
       Durasi 1 bulan
       Fitur:
       /fly, /feed, /heal, /anvil, /ec, /loom, /god, /repair
-      [+] Kit Rank Nova
+      [+] Kit Rank Astral
       [+] Sethome 15
       [+] Vault 4
     image: "assets/rank_nova.svg"
